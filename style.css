@@ -1,4 +1,4 @@
-/* regole generali */
+/* Regole generali */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +6,7 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+/* Regole HEADER */
 .header {
   display: flex;
   align-items: center;
@@ -20,6 +21,7 @@
   width: 50px;
 }
 
+/* Regole MAIN */
 .main {
   width: 100%;
   min-height: calc(100vh - 100px);
@@ -34,10 +36,10 @@
   width: 55%;
   min-height: 750px;
   margin: auto;
-  border: 1px solid yellow;
   padding: 15px;
 }
 
+/* Regole ALBUM */
 .album {
   display: flex;
   flex-direction: column;
@@ -45,20 +47,23 @@
   height: 300px;
   flex-basis: calc(90% / 4);
   background-color: #2e3a46;
-  padding: 15px;
-  border: 1px solid lightgreen;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .album img {
-  width: 50px;
+  width: 170px;
+  margin-bottom: 10px;
 }
 
 .album h3 {
+  text-align: center;
   color: white;
   margin-bottom: 10px;
 }
 
 .album h4, h5 {
-  font-weight: 200;
+  font-weight: 400;
+  margin-bottom: 4px;
   color: #6d6f72;
 }

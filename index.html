@@ -18,11 +18,11 @@
     <!-- MAIN -->
     <main class="main">
       <div id="app" class="container">
-        <div class="album">
-          <img src="" alt="">
-          <h3>NEW JERSEY</h2>
-          <h4>Bon Jovi</h4>
-          <h5>1988</h5>
+        <div v-for="element in album" class="album">
+          <img :src="element.poster" alt="cover album">
+          <h3>{{ element.title }}</h3>
+          <h4>{{ element.author }}</h4>
+          <h5>{{ element.year }}</h5>
         </div>
       </div>
     </main>
