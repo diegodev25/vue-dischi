@@ -1,0 +1,64 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #2e3a46;
+  padding: 10px;
+}
+
+.header img {
+  margin-left: 300px;
+  width: 50px;
+}
+
+.main {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  background-color: #1e2d3b;
+  padding-top: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 55%;
+  min-height: 750px;
+  margin: auto;
+  border: 1px solid yellow;
+  padding: 15px;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  flex-basis: calc(90% / 4);
+  background-color: #2e3a46;
+  padding: 15px;
+  border: 1px solid lightgreen;
+}
+
+.album img {
+  width: 50px;
+}
+
+.album h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.album h4, h5 {
+  font-weight: 200;
+  color: #6d6f72;
+}
